@@ -110,11 +110,11 @@
    }
    
    input:checked + .slider {
-     background-color: #2196F3;
+     background-color: #6666FF;
    }
    
    input:focus + .slider {
-     box-shadow: 0 0 1px #2196F3;
+     box-shadow: 0 0 1px #6666FF;
    }
    
    input:checked + .slider:before {
@@ -131,6 +131,36 @@
      border-radius: 50%;
    }
 
+   button.signin, button.signup {
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    outline: 0;
+    border: 1px solid #6666FF;
+    color: #6666FF;
+}
+button.signup {
+  background :#6666FF;
+  color : white;
+}
+button.signin {
+  
+}
+button.signup:hover {
+  background :#fff;
+  color: #6666FF;
+  transition: .4s;
+}
+button.signin:hover {
+  color : white;
+  background :#6666FF;
+  transition: .4s;
+}
+button.signin i, button.signup i {
+  margin-right : 5px;
+}
+
 
 /* ========================header end ============================= */
 
@@ -146,14 +176,35 @@
 }
 
 .medical-center .medical-center-left .main-title {
-    font-size: 60px;
-    max-width: 432px;
+  font-size: 60px;
+  max-width: 432px;
+  line-height: 1.25;
+}
+
+.medical-center .medical-center-left .strapline {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.medical-center .medical-center-left .text-link-section {
+  display: flex;
+  margin : 35px 0 70px 0;
+  font-weight: 600;
+}
+
+.medical-center .medical-center-left .text-link-section .link {
+  color : #6666FF;
 }
 
 .medical-center .medical-center-left {
   padding-left: calc((100vw - 1230px) / 2);
   padding-top: 170px;
 
+}
+
+.medical-center .medical-center-left .medical-image img {
+  border-radius: 10px;
 }
 
 .medical-center .medical-center-left .medical-image img {
@@ -166,15 +217,37 @@
   top : 0;
   right: 0;
 }
+
 .medical-center .medical-center-right .silicon-wrapper {
   max-width: 475px;
-  background: red;
+  background: #6666FF;
   height: fit-content;
   padding: 60px 55px;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-23%, -79%);
+  transform: translate(-24%, -65%);
+  color : #fff;
+  border-radius : 10px;
+}
+
+.medical-center .medical-center-right .silicon-wrapper .slicon-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.medical-center .medical-center-right .silicon-wrapper .text {
+  padding: 30px 0 40px 0;
+  line-height: 26px;
+}
+
+.medical-center .medical-center-right .silicon-wrapper .btn {
+  background: #fff;
+}
+
+.medical-center .medical-center-right .silicon-wrapper .btn i {
+  margin-left: 12px;
+  font-size: 14px;
 }
 
 .medical-center .medical-center-right .hero-banner-image img {
@@ -259,7 +332,7 @@ button.active {
   position: relative;
 }
 
-.card-image:hover img{
+.medical-specialist .card-image:hover img{
   opacity: 0.3;
 
 }
@@ -324,7 +397,7 @@ button.active {
 }
 
 .our-patients .patients-slider .cards-item .card .card-content .quote-icon {
-  background: green;
+  background: #6666FF;
   color: white;
   width: 38px;
   height: 38px;
@@ -467,7 +540,23 @@ button.active {
 
 .card-info {
   padding: 20px 0;
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid rgb(240, 240, 240);
 }
 
 /* ======================== main content end ==================== */
+
+
+
+/* madical card */
+.medical-card .cards .cards-item .card {
+  align-items: center;
+  column-gap: 15%;
+}
+
+.medical-card .cards .cards-item .card .card-image {
+  max-width: 25%;
+}
+
+.medical-card .cards .cards-item .card .card-content .card-text {
+  margin: 10px 0 15px 0;
+}
