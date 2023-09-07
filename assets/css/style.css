@@ -236,7 +236,7 @@ button.signin i, button.signup i {
   font-weight: 500;
 }
 
-.medical-center .medical-center-right .silicon-wrapper .text {
+.medical-center .medical-center-right .silicon-wrapper .silicon-text {
   padding: 30px 0 40px 0;
   line-height: 26px;
 }
@@ -313,11 +313,20 @@ button.active {
 .medical-specialist .medical-specialist-top-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
-
+.medical-specialist .medical-specialist-top-wrapper .btn-text {
+  background:#fff;
+  border: 1px solid #6666FF;
+}
+.medical-specialist .medical-specialist-top-wrapper .btn-text:hover {
+  background: #6666FF;
+  color: #fff;
+  transition: .4s;
+}
 .overlay {
   position: absolute;
-  top: 0;
+  top: 50%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -326,6 +335,18 @@ button.active {
   opacity: 0;
   transition: .3s ease;
 
+}
+.overlay a.icon {
+  background: #fff;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #000;
+}
+.overlay a.icon:last-child {
+ 
+  margin-right: 0px;
 }
 
 .card-image {
@@ -369,7 +390,7 @@ button.active {
 /* our patients */
 
 .our-patients {
-  background : rgb(161, 203, 212);
+  background : rgba(214, 230, 255,0.4);
 }
 
 .our-patients .global-title {
@@ -433,7 +454,7 @@ button.active {
 /* new services */
 .services-wrapper {
   margin-top: 200px;
-  background : rgb(161, 203, 212);
+  background : rgba(214, 230, 255,0.4);
 }
 
 .services-wrapper .services-inner {
@@ -447,8 +468,15 @@ button.active {
   max-width: 34%;
   margin-top: -6%;
 }
+.services-wrapper .services-inner .services-content {
+  text-align: start;
+  max-width: 450px;
+  margin: auto;
+}
+
 .services-wrapper .services-inner .services-image img {
-  width : 100%;
+  width: 100%;
+  border-radius: 8px;
 }
 
 
@@ -537,10 +565,19 @@ button.active {
   display: flex;
     justify-content: space-between;
 }
+.latest-news .news-slider .cards-item .card .card-bottom .tag-time-wrapper .tag {
+  background: rgb(240, 240, 240);
+  padding: 4px 9px;
+  border-radius: 20px;
+  font-weight: 400;
+}
 
-.card-info {
+.latest-news .news-slider .cards-item .card .card-bottom .card-info {
   padding: 20px 0;
   border-bottom: 2px solid rgb(240, 240, 240);
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* ======================== main content end ==================== */
@@ -550,13 +587,58 @@ button.active {
 /* madical card */
 .medical-card .cards .cards-item .card {
   align-items: center;
-  column-gap: 15%;
+  column-gap: 12%;
 }
 
 .medical-card .cards .cards-item .card .card-image {
   max-width: 25%;
 }
 
-.medical-card .cards .cards-item .card .card-content .card-text {
-  margin: 10px 0 15px 0;
+
+
+
+/* makes different  */
+.makes-different .text {
+  margin: 20px auto 40px auto;
+  max-width: 525px;
+  font-weight: 400;
+}
+
+
+/* inovative */
+.inovative-technology .inovative-technology-left button {
+  background: #6666FF;
+  color: #fff;
+}
+.inovative-technology .inovative-technology-left button:hover {
+  background: #fff;
+  color: #6666FF;
+  border: 1px solid #6666FF;
+  transition: .4s;
+}
+.inovative-technology-right .cards .cards-item {
+  background: rgba(214, 230, 255,0.4);
+}
+.inovative-technology-right .cards .cards-item .card {
+  column-gap : 20px;
+}
+.inovative-technology-right .cards .cards-item .card .card-image  {
+  background: #fff;
+    padding: 15px;
+    height: 56px;
+    border-radius: 10px;
+    font-size: 23px;
+    color: rgba(214, 230, 255,0.4);
+}
+
+
+.services-wrapper .services-inner .services-content button {
+  background: green;
+  color: #fff;
+}
+.services-wrapper .services-inner .services-content button:hover {
+  background: #fff;
+  color: green;
+  border: 1px solid green;
+  transition: .4s;
 }
