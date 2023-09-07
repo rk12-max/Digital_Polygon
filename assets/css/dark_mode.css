@@ -1,0 +1,45 @@
+.dark-mode-ON {
+  background: #000;
+  color: #fff;
+}
+
+.dark-mode-ON .header-section .header-left .logo img {
+  filter: brightness(0) invert(1);
+}
+
+.dark-mode-ON .header-section .header-left .menus ul li a,
+.dark-mode-ON .header-section .header-left .menus .sub-menu li a,
+.dark-mode-ON .header-section .header-right > div,
+.dark-mode-ON
+  .latest-news
+  .news-slider
+  .cards-item
+  .card
+  .card-bottom
+  .card-info {
+  color: #fff;
+}
+
+.dark-mode-ON .inovative-technology-right .cards .cards-item .card .card-image,
+.dark-mode-ON .our-patients .patients-slider .cards-item .card .card-content,
+.dark-mode-ON
+  .latest-news
+  .news-slider
+  .cards-item
+  .card
+  .card-bottom
+  .tag-time-wrapper
+  .tag,
+.dark-mode-ON
+  .latest-news
+  .news-slider
+  .cards-item
+  .card
+  .card-top
+  .quote-icon {
+  color: #000;
+}
+
+.dark-mode-ON .latest-news .news-slider .cards-item .card {
+  border: 1px solid #fff;
+}

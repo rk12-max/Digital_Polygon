@@ -26,3 +26,13 @@ button.addEventListener("click", () => {
     button.classList.toggle("active");
   }
 });
+
+
+// light/dark mode 
+let darkMode = document.querySelector(".round");
+let body = document.querySelector("body");
+console.log(darkMode);
+console.log(body);
+darkMode.addEventListener("click", () => {
+    body.classList.toggle("dark-mode-ON");
+  });

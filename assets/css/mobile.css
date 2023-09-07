@@ -8,6 +8,7 @@
   /* inovative section */
   .inovative-technology {
     flex-direction: column;
+    row-gap: 20px;
   }
 
   /* medical specialist */
@@ -24,10 +25,12 @@
     max-width: 100%;
   }
   .services-wrapper .services-inner .services-content {
-    
     max-width: 100%;
-  
-}
+  }
+  .medical-specialist .medical-specialist-top-wrapper .btn-text {
+    max-width: fit-content;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -114,10 +117,8 @@
     padding: 0 24px;
   }
   .medical-center .medical-center-left .main-title {
-    
     max-width: 100%;
-  
-}
+  }
   .medical-center {
     flex-direction: column;
     row-gap: 12px;
