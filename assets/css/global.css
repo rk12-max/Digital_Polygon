@@ -1,4 +1,6 @@
+/* import google font and some global styling */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -27,52 +29,13 @@
   text-align: center;
 }
 
-/* card */
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 2%;
-  row-gap: 18px;
-}
-
-.cards-item {
-  display: flex;
-  padding: 1rem;
-  flex: 1 0 270px;
-  justify-content: center;
-}
-
-.cards-item .card {
-  display: flex;
-}
-.card img {
-  width: 100%;
-}
-.cards .cards-item {
-  border-radius: 8px;
-  border: 1px solid #fff;
-  padding: 2.5% 3%;
-  box-shadow: inset 0 0em 0em rgba(0, 0, 0, 0.1), 0 0px rgb(255, 255, 255),
-    0em 0em 1em rgba(0, 0, 0, 0.2);
-}
-
-.cards .cards-item:hover {
-  box-shadow: inset 0 0em 0em rgba(0, 0, 0, 0.1), 0 2px rgb(255, 255, 255),
-    0em 1em 1em rgba(0, 0, 0, 0.2);
-}
-
-.cards .cards-item .card .card-content .card-text {
-  margin: 10px 0 15px 0;
-}
 .text {
   margin: 20px 0 40px 0;
   line-height: 26px;
   font-size: 18px;
-
   font-weight: 500;
 }
-/* global title */
+
 .global-title {
   font-size: 36px;
   font-weight: 700;
@@ -97,4 +60,44 @@
 
 .green-text {
   color: green;
+}
+
+/* card */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 18px;
+}
+
+.cards-item {
+  display: flex;
+  padding: 1rem;
+  flex: 1 0 270px;
+  justify-content: center;
+}
+
+.cards-item .card {
+  display: flex;
+}
+
+.card img {
+  width: 100%;
+}
+
+.cards .cards-item {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 2.5% 3%;
+  box-shadow: inset 0 0em 0em rgba(0, 0, 0, 0.1), 0 0px rgb(255, 255, 255),
+    0em 0em 1em rgba(0, 0, 0, 0.2);
+}
+
+.cards .cards-item:hover {
+  box-shadow: inset 0 0em 0em rgba(0, 0, 0, 0.1), 0 2px rgb(255, 255, 255),
+    0em 1em 1em rgba(0, 0, 0, 0.2);
+}
+
+.cards .cards-item .card .card-content .card-text {
+  margin: 10px 0 15px 0;
 }

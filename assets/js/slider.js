@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // patient slider
+  // to make our patients section into slider
   $(".patients-slider").slick({
     slidesToShow: 6,
     infinite: true,
@@ -40,7 +40,7 @@ $(document).ready(function () {
       },
     ],
   });
-  //   news slider
+  //  to make latest news section into slider
   $(".news-slider").slick({
     slidesToShow: 3,
     infinite: true,

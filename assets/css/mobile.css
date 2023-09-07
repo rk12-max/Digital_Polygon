@@ -24,9 +24,11 @@
   .services-wrapper .services-inner .services-image {
     max-width: 100%;
   }
+
   .services-wrapper .services-inner .services-content {
     max-width: 100%;
   }
+
   .medical-specialist .medical-specialist-top-wrapper .btn-text {
     max-width: fit-content;
     margin-top: 10px;
@@ -42,12 +44,16 @@
     background: #1d252c;
     justify-content: flex-start;
   }
-  .header-section.menu-visible {
+
+  .whole-header-wrapper.menu-visible {
     height: 100vh;
+    background: #1d252c;
   }
+
   .header-section .header-left .menus ul .sub-menu.sub-menu-visible {
     position: initial;
   }
+
   .header-section .header-left {
     align-items: initial;
     flex-direction: column;
@@ -76,6 +82,7 @@
   .header-section .header-left .menus .sub-menu {
     padding-left: 10px;
   }
+
   .header-section .header-left .menus .sub-menu li {
     padding-bottom: 6px;
   }
@@ -116,21 +123,26 @@
     position: relative;
     padding: 0 24px;
   }
+
   .medical-center .medical-center-left .main-title {
     max-width: 100%;
   }
+
   .medical-center {
     flex-direction: column;
     row-gap: 12px;
   }
+
   .medical-center .medical-center-right .hero-banner-image img {
     display: none;
   }
+
   .medical-center .medical-center-right .silicon-wrapper {
     max-width: 100%;
     position: initial;
     transform: inherit;
   }
+
   .medical-center .medical-center-left .medical-image img {
     max-width: 100%;
   }

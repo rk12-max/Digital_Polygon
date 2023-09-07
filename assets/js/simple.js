@@ -1,4 +1,4 @@
-// humbergur working
+// for humbergur working
 let humbergur = document.querySelector(".humberger");
 let menuVisible = document.querySelector(".whole-header-wrapper");
 let menuIcon = document.querySelector(".menu-icon");
@@ -12,7 +12,7 @@ menuIcon.addEventListener("click", () => {
   subMenu.classList.toggle("sub-menu-visible");
 });
 
-// play pause video
+// for play pause video
 let ctrlVideo = document.getElementById("video");
 let playButton = document.getElementById("play-btn");
 let button = document.getElementById("play-btn");
@@ -27,12 +27,10 @@ button.addEventListener("click", () => {
   }
 });
 
-
-// light/dark mode 
+// for light/dark mode
 let darkMode = document.querySelector(".round");
 let body = document.querySelector("body");
-console.log(darkMode);
-console.log(body);
+
 darkMode.addEventListener("click", () => {
-    body.classList.toggle("dark-mode-ON");
-  });
+  body.classList.toggle("dark-mode-ON");
+});
