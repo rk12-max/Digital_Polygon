@@ -1,0 +1,473 @@
+/* ================== header start ==================*/
+.whole-header-wrapper {
+  position: absolute;
+    z-index: 50;
+    width: 100%;
+}
+.header-section {
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding: 24px;
+  }
+  
+  .header-section .header-left {
+    display: flex;
+    align-items : center;
+    column-gap : 5px;
+  }
+
+  .header-section .header-left .logo {
+    max-width : 150px;
+  }
+
+  .header-section .header-left .logo img {
+    width : 100%;
+  }
+
+  .header-section .header-left .menus ul {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    position: relative;
+}
+.header-section .header-left .menus ul li a,
+.header-section .header-left .menus .sub-menu li a,
+.header-section .header-right > div {
+  color : #1b1818;
+  font-weight : 500;
+}
+  .header-section .header-left .menus ul .sub-menu {
+    flex-direction : column;
+    display : none;
+  } 
+
+  .header-section .header-left .menus ul .sub-menu.sub-menu-visible {
+    display: block;
+    position: absolute;
+}
+
+  .header-section .header-right {
+    display: flex;
+    column-gap : 10px;
+  }
+
+  .humberger {
+    display : none;
+  }
+
+  .humberger .w-8x {
+    width : 32px;
+  }
+
+  .humberger .h-8 {
+    height : 32px
+  }
+
+  
+  /* light dark mode */
+  .mode-wrapper {
+     display : flex;
+     align-items : center;
+     column-gap : 20px;
+  }
+  .switch {
+     position: relative;
+     display: inline-block;
+     width: 36px;
+     height: 18px;
+   }
+   
+   .switch input { 
+     opacity: 0;
+     width: 0;
+     height: 0;
+   }
+   
+   .slider {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #ccc;
+     -webkit-transition: .4s;
+     transition: .4s;
+   }
+   
+   .slider:before {
+     position: absolute;
+     content: "";
+     height: 15px;
+     width: 15px;
+     left: 2px;
+     bottom: 2px;
+     background-color: white;
+     transform: translateX(17px);
+     -webkit-transition: .4s;
+     transition: .4s;
+   }
+   
+   input:checked + .slider {
+     background-color: #2196F3;
+   }
+   
+   input:focus + .slider {
+     box-shadow: 0 0 1px #2196F3;
+   }
+   
+   input:checked + .slider:before {
+   
+     transform: translateX(0px);
+   }
+   
+   /* Rounded sliders */
+   .slider.round {
+     border-radius: 34px;
+   }
+   
+   .slider.round:before {
+     border-radius: 50%;
+   }
+
+
+/* ========================header end ============================= */
+
+/* ======================== main content start ==================== */
+
+/* professional medical center style */
+.hero-banner {
+  position: relative;
+}
+.medical-center {
+    display : flex;
+    column-gap : 24px;
+}
+
+.medical-center .medical-center-left .main-title {
+    font-size: 60px;
+    max-width: 432px;
+}
+
+.medical-center .medical-center-left {
+  padding-left: calc((100vw - 1230px) / 2);
+  padding-top: 170px;
+
+}
+
+.medical-center .medical-center-left .medical-image img {
+    width: 100%;
+    max-width: 574px;
+}
+
+.medical-center .medical-center-right .hero-banner-image img {
+  position : absolute;
+  top : 0;
+  right: 0;
+}
+.medical-center .medical-center-right .silicon-wrapper {
+  max-width: 475px;
+  background: red;
+  height: fit-content;
+  padding: 60px 55px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-23%, -79%);
+}
+
+.medical-center .medical-center-right .hero-banner-image img {
+  max-width: 45%;
+  z-index : -99;
+}
+
+
+
+/* makes us different */
+video,
+video[poster] {
+  width : 100%;
+}
+
+/* play button */
+.video-wrapper {
+  position : relative;
+}
+
+
+#play-btn {
+  background-color: #666;
+  border: medium none;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  left: 0;
+  margin: 0 auto;
+  padding: 8px 16px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+button.active {
+  background-color: #0077a2;
+}
+
+
+.inovative-technology {
+  display: flex;
+  column-gap : 2%;
+}
+
+/* medical specialist */
+
+
+.medical-specialist .card {
+  flex-direction: column;
+  text-align : center;
+}
+
+.medical-specialist img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.medical-specialist .medical-specialist-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image:hover img{
+  opacity: 0.3;
+
+}
+
+.card-image:hover .overlay {
+  opacity: 1;
+}
+
+.medical-specialist .cards .cards-item {
+  border-radius: 10px;
+  padding: 0;
+  box-shadow: inset 0 3em 0em rgba(0, 0, 0, 0.1),0 0px rgb(255, 255, 255), 0em 0em 1em rgba(0, 0, 0, 0.2);
+}
+.medical-specialist .cards .cards-item .card-content {
+  padding: 16px;
+}
+
+/* start rating */
+
+.stars{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+
+.star {
+  font-size : 1rem;
+  padding-right : 6px;
+}
+.star:hover {
+  color : yellow;
+}
+
+/* our patients */
+
+.our-patients {
+  background : rgb(161, 203, 212);
+}
+
+.our-patients .global-title {
+ padding-top: 70px;
+}
+
+.our-patients .patients-slider {
+  padding: 40px 0;
+}
+.our-patients .patients-slider .cards-item {
+  border: 0px;
+  padding : 2.5rem 1rem;s
+}
+.our-patients .patients-slider .cards-item .card {
+  display : inherit;
+}
+
+.our-patients .patients-slider .cards-item .card .card-content {
+  margin-bottom: 12px;
+  padding: 24px;
+  text-align: left;
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.our-patients .patients-slider .cards-item .card .card-content .quote-icon {
+  background: green;
+  color: white;
+  width: 38px;
+  height: 38px;
+  border-radius: 4px;
+  position: absolute;
+  top: -24px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-patients .patients-slider .cards-item .card .card-content .star-rating .stars {
+  justify-content: flex-Start;
+}
+.our-patients .patients-slider .cards-item .card .card-image-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.our-patients .patients-slider .cards-item .card .card-image-text .card-image img {
+  width : 50px;
+  height : 50px;
+  object-fit : cover;
+  border-radius: 8px;
+}
+
+.our-patients .patients-slider .cards-item .card .card-image-text .card-image:hover img {
+  opacity: 1;
+}
+
+
+
+/* new services */
+.services-wrapper {
+  margin-top: 200px;
+  background : rgb(161, 203, 212);
+}
+
+.services-wrapper .services-inner {
+  display: flex;
+  /* justify-content: space-between; */
+  column-gap: 6rem;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.services-wrapper .services-inner .services-image {
+  max-width: 34%;
+  margin-top: -6%;
+}
+.services-wrapper .services-inner .services-image img {
+  width : 100%;
+}
+
+
+/* latest news  */
+.latest-news .news-slider {
+  padding: 40px 0;
+}
+.latest-news .news-slider .cards-item {
+  padding : 2.5rem 1rem;s
+}
+
+
+.latest-news .news-slider .cards-item .card .card-content {
+  margin-bottom: 12px;
+  padding: 24px;
+  text-align: left;
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.latest-news .news-slider .cards-item .card .card-content .quote-icon {
+  background: green;
+  color: white;
+  width: 38px;
+  height: 38px;
+  border-radius: 4px;
+  position: absolute;
+  top: -24px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-news .news-slider .cards-item .card .card-content .star-rating .stars {
+  justify-content: flex-Start;
+}
+.latest-news .news-slider .cards-item .card .card-image-text {
+  display: flex;
+  column-gap : 10px;
+  padding-top : 16px
+}
+
+.latest-news .news-slider .cards-item .card .card-image-text .card-image img {
+  width : 50px;
+  height : 50px;
+  object-fit : cover;
+  border-radius: 8px;
+  
+}
+
+.latest-news .news-slider .cards-item .card .card-image-text .card-image:hover img {
+  opacity: 1;
+}
+
+
+.latest-news .news-slider .cards-item .card .card-top {
+  position : relative;
+}
+.latest-news .news-slider .cards-item .card .card-top .quote-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #fff;
+  padding: 11px 12px;
+  border-radius: 50%;
+}
+
+.latest-news .news-slider .cards-item .card .card-top img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.latest-news .news-slider .cards-item .card {
+  display: inherit;
+  border-radius: 10px;
+ 
+  box-shadow: inset 0 3em 0em rgba(0, 0, 0, 0.1),0 0px rgb(255, 255, 255), 0em 0em 1em rgba(0, 0, 0, 0.2);
+ 
+}
+.latest-news .news-slider .cards-item .card .card-bottom {
+  padding: 20px;
+  text-align : start;
+}
+
+.latest-news .news-slider .cards-item .card .card-bottom .tag-time-wrapper {
+  display: flex;
+    justify-content: space-between;
+}
+
+.card-info {
+  padding: 20px 0;
+  border-bottom: 1px solid red;
+}
+
+/* ======================== main content end ==================== */

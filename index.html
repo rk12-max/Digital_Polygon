@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Polygon</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- link font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- link style.css file for design -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+    <link rel="stylesheet" href="assets/css/ipad.css" />
+  </head>
+  <body>
+    <!-- start header portion-->
+    <header class="whole-header-wrapper section-bottom-gap">
+      <div class="header-section container mx-auto">
+        <div class="header-left">
+          <div class="logo">
+            <img src="assets/images/DigitalPolygon-logo.svg" alt="Site Logo" />
+          </div>
+          <div class="menus">
+            <ul>
+              <li>
+                <a href="#"
+                  >Services
+                  <span class="menu-icon">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <ul class="sub-menu">
+                  <li><a href="#">Service1</a></li>
+                  <li><a href="#">Service2</a></li>
+                  <li><a href="#">Service3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Prices</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="mode-wrapper">
+            <span class="light-mode">Light</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+            <span class="dark-mode">Dark</span>
+          </div>
+          <div class="signin">SignIn</div>
+          <div class="signup">Signup</div>
+        </div>
+        <div class="humberger">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="w-8 h-8"
+          >
+            <path d="M3 12h18M3 6h18M3 18h18"></path>
+          </svg>
+        </div>
+      </div>
+    </header>
+    <!-- end header portion -->
+    <!-- start main content -->
+    <main>
+      <div class="hero-banner section-bottom-gap">
+        <div class="medical-center">
+          <div class="medical-center-left">
+            <div class="strapline">Professional Medical Center</div>
+            <h1 class="main-title">We Take care of Your Health</h1>
+            <div class="text-link-section">
+              <div class="text">Don't have Insurance?</div>
+              <div class="link"><a href="#">Click here</a></div>
+            </div>
+            <div class="medical-image">
+              <img src="assets/images/medical-image.jpg" alt="medical image" />
+            </div>
+          </div>
+          <div class="medical-center-right">
+            <div class="silicon-wrapper">
+              <div class="slicon-title">Silicon Medical Center</div>
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                sequi rem delectus vitae non ipsum dolor, deleniti soluta
+                quibusdam temporibus, repellat quasi. Assumenda ab beatae
+                nostrum voluptates, illo corrupti a.
+              </div>
+              <button>About Us</button>
+            </div>
+            <div class="hero-banner-image">
+              <img
+                src="assets/images/medical-image.jpg"
+                alt="hero banner image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="medical-card container mx-auto section-bottom-gap">
+        <div class="cards">
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image"><img src="" alt="docter image" /></div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">
+                  Search the right docter by location and speciality
+                </p>
+                <div class="card-link">
+                  <a href="#">See all doctors</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image"><img src="" alt="docter image" /></div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">
+                  Search the right docter by location and speciality
+                </p>
+                <div class="card-link">
+                  <a href="#">See all doctors</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image"><img src="" alt="docter image" /></div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">
+                  Search the right docter by location and speciality
+                </p>
+                <div class="card-link">
+                  <a href="#">See all doctors</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="makes-different container mx-auto section-bottom-gap">
+        <h2 class="global-title">See What Makes Us Different</h2>
+        <p class="text">
+          Your best care begin here.Harry up to get top health care quality from
+          leading docters of the world.
+        </p>
+        <div class="video-wrapper">
+          <video
+            id="video"
+            preload="auto"
+            loop
+            poster="assets/images/video-thumbnail.jpg"
+          >
+            <source
+              src="https://static.videezy.com/system/resources/previews/000/002/719/original/cloudy-sunset.mp4"
+            />
+          </video>
+          <button class="active" id="play-btn">play</button>
+        </div>
+      </div>
+
+      <!-- inovative technology -->
+      <div class="inovative-technology container mx-auto section-bottom-gap">
+        <div class="inovative-technology-left">
+          <h2 class="global-title">Highly Inovative Technology & Services</h2>
+          <p class="text">
+            We appreciate your trust greatly.Our patients choose us and our
+            services because they know we are the best.We offer complete Health
+            care to individual with various health concerns.
+          </p>
+          <button>All Services</button>
+        </div>
+        <div class="inovative-technology-right">
+          <div class="cards">
+            <div class="cards-item">
+              <div class="card">
+                <div class="card-image"><img src="" alt="docter image" /></div>
+                <div class="card-content">
+                  <h3 class="card-title">Find a Doctor</h3>
+                  <p class="card-text">
+                    Search the right docter by location and speciality
+                  </p>
+                  <div class="card-link">
+                    <a href="#">See all doctors</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-item">
+              <div class="card">
+                <div class="card-image"><img src="" alt="docter image" /></div>
+                <div class="card-content">
+                  <h3 class="card-title">Find a Doctor</h3>
+                  <p class="card-text">
+                    Search the right docter by location and speciality
+                  </p>
+                  <div class="card-link">
+                    <a href="#">See all doctors</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-item">
+              <div class="card">
+                <div class="card-image"><img src="" alt="docter image" /></div>
+                <div class="card-content">
+                  <h3 class="card-title">Find a Doctor</h3>
+                  <p class="card-text">
+                    Search the right docter by location and speciality
+                  </p>
+                  <div class="card-link">
+                    <a href="#">See all doctors</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-item">
+              <div class="card">
+                <div class="card-image"><img src="" alt="docter image" /></div>
+                <div class="card-content">
+                  <h3 class="card-title">Find a Doctor</h3>
+                  <p class="card-text">
+                    Search the right docter by location and speciality
+                  </p>
+                  <div class="card-link">
+                    <a href="#">See all doctors</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-item">
+              <div class="card">
+                <div class="card-image"><img src="" alt="docter image" /></div>
+                <div class="card-content">
+                  <h3 class="card-title">Find a Doctor</h3>
+                  <p class="card-text">
+                    Search the right docter by location and speciality
+                  </p>
+                  <div class="card-link">
+                    <a href="#">See all doctors</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-item">
+              <div class="card">
+                <div class="card-image"><img src="" alt="docter image" /></div>
+                <div class="card-content">
+                  <h3 class="card-title">Find a Doctor</h3>
+                  <p class="card-text">
+                    Search the right docter by location and speciality
+                  </p>
+                  <div class="card-link">
+                    <a href="#">See all doctors</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Services -->
+      <div class="services-wrapper text-center section-bottom-gap">
+        <div class="services-inner container mx-auto">
+          <div class="services-image">
+            <img src="assets/images/Services_image.jpg" alt="" />
+          </div>
+          <div class="services-content">
+            <h2 class="global-title">
+              New Services - Start Your Care
+              <span class="green-text">Online</span> Now
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+              nihil praesentium similique hic ad ab officia illum animi eveniet
+              voluptatum. Dolorum ad blanditiis ea vel? Molestias sint iusto
+              tenetur deserunt!
+            </p>
+            <button>Learn more</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- medical specilist -->
+      <div class="medical-specialist container mx-auto section-bottom-gap">
+        <div class="medical-specialist-top-wrapper">
+          <h2 class="global-title">Highly Inovative Technology & Services</h2>
+          <button>All Services</button>
+        </div>
+        <div class="cards">
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Dr. Ronald Richards</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Dr. Esther Howard</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Dr. Jerome Bell</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/medical-image.jpg" alt="docter image" />
+                <div class="social-icons">
+                  <div class="overlay">
+                    <a href="#" class="icon" title="facebook">
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon" title="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="icon" title="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Find a Doctor</h3>
+                <p class="card-text">Surgeon</p>
+                <div class="star-rating-review">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <span class="review">Reviews</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- our patients -->
+      <div class="our-patients text-center section-bottom-gap">
+        <h2 class="global-title">What Our Patients Say</h2>
+        <div class="patients-slider">
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-content">
+                <div class="quote-icon">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p class="card-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="star-rating">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-image-text">
+                <div class="card-image">
+                  <img
+                    src="assets/images/medical-image.jpg"
+                    alt="docter image"
+                  />
+                </div>
+                <div class="card-text">
+                  <h3 class="card-title">Dr. Esther Howard</h3>
+                  <p class="card-text">Surgeon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-content">
+                <div class="quote-icon">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p class="card-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="star-rating">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-image-text">
+                <div class="card-image">
+                  <img
+                    src="assets/images/medical-image.jpg"
+                    alt="docter image"
+                  />
+                </div>
+                <div class="card-text">
+                  <h3 class="card-title">Dr. Esther Howard</h3>
+                  <p class="card-text">Surgeon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-content">
+                <div class="quote-icon">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p class="card-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="star-rating">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-image-text">
+                <div class="card-image">
+                  <img
+                    src="assets/images/medical-image.jpg"
+                    alt="docter image"
+                  />
+                </div>
+                <div class="card-text">
+                  <h3 class="card-title">Dr. Esther Howard</h3>
+                  <p class="card-text">Surgeon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-content">
+                <div class="quote-icon">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p class="card-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="star-rating">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-image-text">
+                <div class="card-image">
+                  <img
+                    src="assets/images/medical-image.jpg"
+                    alt="docter image"
+                  />
+                </div>
+                <div class="card-text">
+                  <h3 class="card-title">Dr. Esther Howard</h3>
+                  <p class="card-text">Surgeon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-content">
+                <div class="quote-icon">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p class="card-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="star-rating">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-image-text">
+                <div class="card-image">
+                  <img
+                    src="assets/images/medical-image.jpg"
+                    alt="docter image"
+                  />
+                </div>
+                <div class="card-text">
+                  <h3 class="card-title">Dr. Esther Howard</h3>
+                  <p class="card-text">Surgeon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-content">
+                <div class="quote-icon">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p class="card-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="star-rating">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-image-text">
+                <div class="card-image">
+                  <img
+                    src="assets/images/medical-image.jpg"
+                    alt="docter image"
+                  />
+                </div>
+                <div class="card-text">
+                  <h3 class="card-title">Dr. Esther Howard</h3>
+                  <p class="card-text">Surgeon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-content">
+                <div class="quote-icon">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p class="card-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="star-rating">
+                  <ul class="stars">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-image-text">
+                <div class="card-image">
+                  <img
+                    src="assets/images/medical-image.jpg"
+                    alt="docter image"
+                  />
+                </div>
+                <div class="card-text">
+                  <h3 class="card-title">Dr. Esther Howard</h3>
+                  <p class="card-text">Surgeon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news container mx-auto text-center section-bottom-gap">
+        <h2 class="global-title">Latest News & Healthy Tips</h2>
+        <div class="news-slider">
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-top">
+                <img src="assets/images/medical-image.jpg" alt="" />
+                <div class="quote-icon">
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="card-bottom">
+                <div class="tag-time-wrapper">
+                  <div class="tag">Diseases</div>
+                  <div class="posted-time">12 hours ago</div>
+                </div>
+                <div class="card-info">
+                  Updates on COVID-19 vaccination efforts in your area
+                </div>
+                <div class="card-image-text">
+                  <div class="card-image">
+                    <img
+                      src="assets/images/medical-image.jpg"
+                      alt="docter image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="card-title">Dr. Esther Howard</h3>
+                    <p class="card-text">Surgeon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-top">
+                <img src="assets/images/medical-image.jpg" alt="" />
+                <div class="quote-icon">
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="card-bottom">
+                <div class="tag-time-wrapper">
+                  <div class="tag">Diseases</div>
+                  <div class="posted-time">12 hours ago</div>
+                </div>
+                <div class="card-info">
+                  Updates on COVID-19 vaccination efforts in your area
+                </div>
+                <div class="card-image-text">
+                  <div class="card-image">
+                    <img
+                      src="assets/images/medical-image.jpg"
+                      alt="docter image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="card-title">Dr. Esther Howard</h3>
+                    <p class="card-text">Surgeon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-top">
+                <img src="assets/images/medical-image.jpg" alt="" />
+                <div class="quote-icon">
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="card-bottom">
+                <div class="tag-time-wrapper">
+                  <div class="tag">Diseases</div>
+                  <div class="posted-time">12 hours ago</div>
+                </div>
+                <div class="card-info">
+                  Updates on COVID-19 vaccination efforts in your area
+                </div>
+                <div class="card-image-text">
+                  <div class="card-image">
+                    <img
+                      src="assets/images/medical-image.jpg"
+                      alt="docter image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="card-title">Dr. Esther Howard</h3>
+                    <p class="card-text">Surgeon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-top">
+                <img src="assets/images/medical-image.jpg" alt="" />
+                <div class="quote-icon">
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="card-bottom">
+                <div class="tag-time-wrapper">
+                  <div class="tag">Diseases</div>
+                  <div class="posted-time">12 hours ago</div>
+                </div>
+                <div class="card-info">
+                  Updates on COVID-19 vaccination efforts in your area
+                </div>
+                <div class="card-image-text">
+                  <div class="card-image">
+                    <img
+                      src="assets/images/medical-image.jpg"
+                      alt="docter image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="card-title">Dr. Esther Howard</h3>
+                    <p class="card-text">Surgeon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-item">
+            <div class="card">
+              <div class="card-top">
+                <img src="assets/images/medical-image.jpg" alt="" />
+                <div class="quote-icon">
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="card-bottom">
+                <div class="tag-time-wrapper">
+                  <div class="tag">Diseases</div>
+                  <div class="posted-time">12 hours ago</div>
+                </div>
+                <div class="card-info">
+                  Updates on COVID-19 vaccination efforts in your area
+                </div>
+                <div class="card-image-text">
+                  <div class="card-image">
+                    <img
+                      src="assets/images/medical-image.jpg"
+                      alt="docter image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="card-title">Dr. Esther Howard</h3>
+                    <p class="card-text">Surgeon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Latest News -->
+    </main>
+    <!-- end main content -->
+    <!-- start footer portion-->
+    <footer></footer>
+    <!-- end footer portion -->
+    <!-- add javascript file -->
+    <script src="assets/js/simple.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <!-- add slick slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+  </body>
+</html>

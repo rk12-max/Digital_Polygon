@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-bottom-gap {
+  margin-bottom: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* card */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 18px;
+}
+
+.cards-item {
+  display: flex;
+  padding: 1rem;
+  flex: 1 0 270px;
+  justify-content: center;
+}
+
+.cards-item .card {
+  display: flex;
+}
+
+/* global title */
+.global-title {
+  font-size: 36px;
+}

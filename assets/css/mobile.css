@@ -1,0 +1,126 @@
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* inovative section */
+  .inovative-technology {
+    flex-direction: column;
+  }
+
+  /* medical specialist */
+  .medical-specialist .medical-specialist-top-wrapper {
+    flex-direction: column;
+  }
+
+  /* services */
+  .services-wrapper .services-inner {
+    flex-direction: column;
+  }
+
+  .services-wrapper .services-inner .services-image {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* whole header section */
+  .header-section {
+    align-items: initial;
+    flex-direction: column;
+    position: relative;
+    background: #1d252c;
+    justify-content: flex-start;
+  }
+  .header-section.menu-visible {
+    height: 100vh;
+  }
+  .header-section .header-left .menus ul .sub-menu.sub-menu-visible {
+    position: initial;
+  }
+  .header-section .header-left {
+    align-items: initial;
+    flex-direction: column;
+  }
+
+  .header-section .header-left .logo img {
+    filter: brightness(0) invert(1);
+  }
+
+  .header-section .header-left .menus ul {
+    align-items: initial;
+    flex-direction: column;
+    font-size: 26px;
+  }
+
+  .header-section .header-left .menus ul li {
+    padding-bottom: 24px;
+  }
+
+  .header-section .header-left .menus ul li a,
+  .header-section .header-left .menus .sub-menu li a,
+  .header-section .header-right > div {
+    color: #fff;
+  }
+
+  .header-section .header-left .menus .sub-menu {
+    padding-left: 10px;
+  }
+  .header-section .header-left .menus .sub-menu li {
+    padding-bottom: 6px;
+  }
+
+  .header-section .header-left .menus,
+  .header-section .header-right {
+    display: none;
+  }
+
+  .whole-header-wrapper.menu-visible .header-section .header-left .menus,
+  .whole-header-wrapper.menu-visible .header-section .header-right {
+    display: block;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .whole-header-wrapper.menu-visible .header-section .header-left .menus {
+    padding-top: 20px;
+  }
+  .header-section .header-right {
+    flex-direction: column;
+    font-size: 26px;
+  }
+
+  .header-section .header-right > div {
+    padding-bottom: 24px;
+  }
+
+  .humberger {
+    display: block;
+    position: absolute;
+    right: 24px;
+    top: 35px;
+  }
+
+  /* Hero Banner section */
+  .hero-banner {
+    position: relative;
+    padding: 0 24px;
+  }
+  .medical-center {
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  .medical-center .medical-center-right .hero-banner-image img {
+    display: none;
+  }
+  .medical-center .medical-center-right .silicon-wrapper {
+    max-width: 100%;
+    position: initial;
+    transform: inherit;
+  }
+  .medical-center .medical-center-left .medical-image img {
+    max-width: 100%;
+  }
+}
