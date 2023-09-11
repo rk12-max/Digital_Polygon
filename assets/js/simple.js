@@ -37,5 +37,5 @@ darkMode.addEventListener("click", () => {
 
 // for humberger icon 
 function myFunction(x) {
-  x.classList.toggle("change");
+  x.classList.toggle("close-icon");
 }

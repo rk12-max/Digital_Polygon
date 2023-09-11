@@ -110,12 +110,12 @@
   transition: 0.4s;
 }
 
-.change .bar1 {
+.close-icon .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
-.change .bar2 {opacity: 0;}
+.close-icon .bar2 {opacity: 0;}
 
-.change .bar3 {
+.close-icon .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
