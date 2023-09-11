@@ -34,3 +34,8 @@ let body = document.querySelector("body");
 darkMode.addEventListener("click", () => {
   body.classList.toggle("dark-mode-ON");
 });
+
+// for humberger icon 
+function myFunction(x) {
+  x.classList.toggle("change");
+}
